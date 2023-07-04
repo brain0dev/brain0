@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+    image-rendering: pixelated;
+    width: 500px;
+    height: 500px;
+}
