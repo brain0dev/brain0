@@ -6,7 +6,7 @@ import NavigationBar from "~/components/NavigationBar.vue";
 <template>
   <div class="p-4">
     <NavigationBar/>
-    <h1 class="title">Library</h1>
+    <h1 class="title-page">Library</h1>
   </div>
 </template>
 

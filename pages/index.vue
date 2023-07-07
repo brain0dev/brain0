@@ -7,7 +7,7 @@
     <NavigationBar/>
     <div class="flex justify-center items-center flex-row font-mono">
       <div>
-        <div class="mr-20 title manifold">
+        <div class="mr-20 title-slogan manifold">
           <p>{{ $t('title1') }} </p>
           <p>{{ $t('title2') }}</p>
         </div>
