@@ -2,36 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    @apply bg-black text-white;
-}
-
-.logo {
-    image-rendering: pixelated;
-    width: 500px;
-    height: 500px;
-    filter: brightness(90%);
-}
-
-.title-slogan {
-    font-size: 90px;
-    font-weight: 800;
-    @apply font-mono;
-}
-
-.title-page {
-    font-size: 60px;
-    font-weight: 700;
-    @apply font-mono;
-}
-
-.manifold {
-    background: -webkit-linear-gradient(#eee 0%, #444 50%, #f65b74 51%, #f72078 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+@layer base {
+    :root {
+        @apply bg-black text-white;
+    }
 }
 
 @layer components {
+    .logo {
+        image-rendering: pixelated;
+        width: 500px;
+        height: 500px;
+        filter: brightness(90%);
+    }
+
+    .title-slogan {
+        font-size: 90px;
+        font-weight: 800;
+        @apply font-mono;
+    }
+
+    .title-page {
+        font-size: 60px;
+        font-weight: 700;
+        @apply font-mono;
+    }
+
+    .manifold {
+        background: -webkit-linear-gradient(#eee 0%, #444 50%, #f65b74 51%, #f72078 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
     .n-button-base {
         @apply border-b hover:bg-pink-900 p-1
     }
