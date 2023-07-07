@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="bg-black text-white p-4 font-semibold">
+  <div class="p-4 font-semibold">
     <NavigationBar/>
     <div class="flex justify-center items-center flex-row font-mono">
       <div>

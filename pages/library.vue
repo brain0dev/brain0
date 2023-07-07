@@ -4,7 +4,7 @@ import NavigationBar from "~/components/NavigationBar.vue";
 </script>
 
 <template>
-  <div class="bg-black text-white p-4">
+  <div class="p-4">
     <NavigationBar/>
     <h1 class="title">Library</h1>
   </div>
