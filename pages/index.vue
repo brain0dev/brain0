@@ -12,8 +12,8 @@
           <p>{{ $t('title2') }}</p>
         </div>
         <div class="flex flex-row mt-12 ml-1 text-2xl font-medium">
-          <a href="/library" class="n-button-base mr-20">{{ $t('get_started') }}</a>
-          <a href="/about" class="n-button-base">Learn More</a>
+          <NuxtLink to="/library" class="n-button-base mr-20">{{ $t('get_started') }}</NuxtLink>
+          <NuxtLink to="/about" class="n-button-base">Learn More</NuxtLink>
         </div>
       </div>
       <img src="public/brain0.transparent.png" class="logo" alt="Brain0 icon">
