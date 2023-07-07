@@ -7,3 +7,20 @@
     width: 500px;
     height: 500px;
 }
+
+.title {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.manifold {
+    background: -webkit-linear-gradient(#eee 0%, #444 50%, #f65b74 51%, #f72078 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@layer components {
+    .n-button-base {
+        @apply border-b hover:bg-pink-900 p-1
+    }
+}
