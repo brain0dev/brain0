@@ -5,7 +5,7 @@
 <template>
   <div class="p-4">
     <NavigationBar/>
-    <h1 class="title-page">{{ $t('about') }}</h1>
+    <PageTitle>{{ $t('about') }}</PageTitle>
   </div>
 </template>
 
